@@ -1,10 +1,11 @@
 [package]
-name = "midi-player-stdout"
+name = "midi-player-midiout"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+alsa = "0.8.1"
 clap = { version = "=4.4.13", features = ["derive"] }
 midi-toolkit-rs = { git = "https://github.com/arduano/midi-toolkit-rs" }
